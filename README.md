@@ -16,11 +16,11 @@ To run this project on your machine you will need to run the command:
 npm install express mongoose
 ```
 
-Set your [Atlas URI connection string](https://docs.atlas.mongodb.com/getting-started/) as a parameter on the line 51 await mongoose.connect on the "main.js" file.
+Set your Atlas URI connection string as a parameter on the line 51 await mongoose.connect on the "main.js" file.
 Make sure you replace the username and password placeholders with your own credentials.
 
 ```
-ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/meanStackExample?retryWrites=true&w=majority
+mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/meanStackExample?retryWrites=true&w=majority
 ```
 
 Simple JSON to use on Postman for a POST request localhost:3000/dogs :
