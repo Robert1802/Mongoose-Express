@@ -22,9 +22,8 @@ Set your [Atlas URI connection string](https://docs.atlas.mongodb.com/getting-st
 ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/meanStackExample?retryWrites=true&w=majority
 ```
 
-Simple JSON to use on Postman for a POST request:
+Simple JSON to use on Postman for a POST request localhost:3000/dogs :
 ```
-- localhost:3000/dogs
 {
     "name":"Bobby",
     "breed":"Schnauzer",
